@@ -31,6 +31,8 @@ img {
   filter: grayscale(0%);
   border-radius: 5%;
   margin-right: 5rem;
+  width: 300px;
+  height: auto;
 }
 
 img:hover {
@@ -45,11 +47,12 @@ img:hover {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
+    flex-wrap: wrap;
   }
 }
 
 .sub-categories {
   display: flex;
   flex-direction: column;
-  padding-right: 5rem; 
+  padding-right: 2rem; 
 }
