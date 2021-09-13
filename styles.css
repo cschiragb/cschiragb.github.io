@@ -23,13 +23,14 @@ body {
   font-family:'Concert One';
   background-color: lightyellow;
   color: darkslategrey;
-  font-weight: 700;
+  font-weight: 500;
   padding-left: 2rem;
 }
 
 img {
   filter: grayscale(0%);
   border-radius: 5%;
+  margin-right: 5rem;
 }
 
 img:hover {
@@ -39,7 +40,14 @@ img:hover {
   filter: grayscale(0%);
 }
 
-/* .categories {
+.categories {
   display: flex;
   flex-direction: row;
-} */
+  align-items: flex-start;
+}
+
+.sub-categories {
+  display: flex;
+  flex-direction: column;
+  margin-right: 5rem; 
+}
